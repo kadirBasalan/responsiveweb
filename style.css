@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 7px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: orange;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    padding: 1.6rem 0;
+
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header{
+    height: 46rem;
+}
+
+header .bg-image{
+    position: absolute;
+    background-image: url(İmages/img4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 46rem;
+    width: 100%;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+header h1{
+    padding: 12rem;
+    padding-bottom: 0;
+   
+}
+
+.buton{
+    display: inline-block;
+    background: orange;
+    color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 1.6rem;
+}
+
+.buton:hover{
+    background-color: white;
+    color: orange;
+    transition: all 0.3s;
+}
+
+#section-a{
+    background-color: white;
+    color: coral;
+    padding: 3.2rem 0;
+}
+
+#section-b{
+    padding: 2rem;
+}
+
+#section-b ul{
+    list-style: none;
+}
+
+#section-b li{
+    background: white;
+    color: orange;
+    margin-bottom: 1.5rem;
+}
+
+.col-content{
+    padding: 1.5rem;
+}
+
+#section-c{
+    background-color: white;
+    color: orange;
+    padding: 5rem;
+    margin: 2rem;
+    text-align: center;
+}
+
+#section-d .box{
+    padding: 5rem;
+    background-color: brown;
+    margin: 2rem;
+}
+#section-d .box:first-child{
+    background-color: rgb(158, 73, 42);
+    margin: 2rem;
+}
+
+
+footer{
+    padding: 4rem;
+    background: black;
+}
+footer a{
+    color: orange;
+}
+
+@media screen and (min-width:800px){
+
+    html{
+        font-size: 9px;
+    }
+    
+}
+
+@media screen and (min-width:1200px){
+
+    html{
+        font-size: 11px;
+    }
+    #section-b li{
+        width: 45%;
+        margin: 1%;
+        display: inline-block;
+    }
+    
+}
